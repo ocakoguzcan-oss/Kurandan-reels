@@ -1,0 +1,19 @@
+{
+  "ayarlar": {
+    "saat_dilimi": "Europe/Istanbul",
+    "metricool_blogId": "7793114",
+    "aylik_otomatik_hak": 20,
+    "isAiGenerated": true,
+    "slotlar": {
+      "pazartesi": "20:30",
+      "sali": "17:30",
+      "carsamba": "20:30",
+      "persembe": "20:30",
+      "cuma": "20:00",
+      "cumartesi": "20:30",
+      "pazar": "20:30"
+    },
+    "not": "Tum gunler /otomasyon ile Metricool'a otomatik planlanir. Aylik 20 hak dolunca kalan videolar elle paylasim icin kullaniciya gonderilir."
+  },
+  "kayitlar": []
+}
