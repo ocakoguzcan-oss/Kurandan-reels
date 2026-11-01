@@ -34,7 +34,7 @@
         "tip": "otomatik"
       }
     },
-    "not": "Pazartesi/Carsamba elle. Elle gunde /otomasyon yazilirsa kullaniciya takas teklif edilir; onaylarsa o gun otomatik olur, en yakin Sali veya Persembe otomatik slotu elle'ye doner (hafta sonu ve Cuma takasa girmez).",
+    "not": "Pazartesi/Carsamba elle. Elle gunde /otomasyon yazilirsa takas teklif edilir; onaylanirsa o gun otomatik olur, AYNI HAFTANIN sonraki Sali veya Persembe slotu elle'ye doner. Takas sadece o haftayi etkiler; sonraki haftalar standart duzenle baslar. Cuma/Cumartesi/Pazar takasa girmez.",
     "takas_yapilabilir_gunler": [
       "sali",
       "persembe"
