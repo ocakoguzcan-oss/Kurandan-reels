@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Amiri;src:url(Amiri-Bold.ttf)}
+@font-face{font-family:Kalam;src:url(Kalam-Bold.ttf)}
+@font-face{font-family:IDB;src:url(InterDisplay-Bold.otf)}
+@font-face{font-family:ISB;src:url(Inter-SemiBold.otf)}
+@font-face{font-family:IM;src:url(Inter-Medium.otf)}
+@font-face{font-family:IXB;src:url(Inter-ExtraBold.otf)}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;
+ background:linear-gradient(#0a0c22 0%,#1b1840 30%,#3b3170 50%,#5a4c8c 62%,#5a4c8c 100%)}
+canvas{position:absolute;left:0;top:0}
+</style></head><body>
+<canvas id="gl" width="1080" height="1920"></canvas>
+<canvas id="ov" width="1080" height="1920"></canvas>
+<script>
+Promise.all([document.fonts.load('46px Kalam'),document.fonts.load('32px Kalam'),document.fonts.load('40px Amiri'),document.fonts.load('40px IDB'),document.fonts.load('40px ISB'),document.fonts.load('40px IM'),document.fonts.load('40px IXB')]).then(()=>{
+ const s=document.createElement('script'); s.src='main.js'; s.onerror=e=>window.ERR='load'; document.body.appendChild(s);});
+window.onerror=(m)=>{window.ERR=m};
+</script></body></html>
