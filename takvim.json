@@ -5,15 +5,41 @@
     "aylik_otomatik_hak": 20,
     "isAiGenerated": true,
     "slotlar": {
-      "pazartesi": "20:30",
-      "sali": "17:30",
-      "carsamba": "20:30",
-      "persembe": "20:30",
-      "cuma": "20:00",
-      "cumartesi": "20:30",
-      "pazar": "20:30"
+      "pazartesi": {
+        "saat": "20:30",
+        "tip": "elle"
+      },
+      "sali": {
+        "saat": "17:30",
+        "tip": "otomatik"
+      },
+      "carsamba": {
+        "saat": "20:30",
+        "tip": "elle"
+      },
+      "persembe": {
+        "saat": "20:30",
+        "tip": "otomatik"
+      },
+      "cuma": {
+        "saat": "20:00",
+        "tip": "otomatik"
+      },
+      "cumartesi": {
+        "saat": "20:30",
+        "tip": "otomatik"
+      },
+      "pazar": {
+        "saat": "20:30",
+        "tip": "otomatik"
+      }
     },
-    "not": "Tum gunler /otomasyon ile Metricool'a otomatik planlanir. Aylik 20 hak dolunca kalan videolar elle paylasim icin kullaniciya gonderilir."
+    "not": "Pazartesi/Carsamba elle. Elle gunde /otomasyon yazilirsa kullaniciya takas teklif edilir; onaylarsa o gun otomatik olur, en yakin Sali veya Persembe otomatik slotu elle'ye doner (hafta sonu ve Cuma takasa girmez).",
+    "takas_yapilabilir_gunler": [
+      "sali",
+      "persembe"
+    ]
   },
-  "kayitlar": []
+  "kayitlar": [],
+  "takaslar": []
 }
