@@ -47,6 +47,13 @@
       "konu": "Umre nasıl yapılır? Erkek · Kadın · Çocuk",
       "video": "videos/2026-11-02_umre-nasil-yapilir.mp4",
       "metricool_id": 413688639
+    },
+    {
+      "tarih": "2026-11-03T15:00",
+      "tip": "otomatik",
+      "konu": "610: Ey Hatice, bana kim inanır? / Biz inandık",
+      "video": "videos/2026-11-03_ey-hatice-biz-inandik.mp4",
+      "metricool_id": 414632957
     }
   ],
   "takaslar": [
@@ -54,6 +61,11 @@
       "hafta": "2026-11-02",
       "otomatik_yapilan": "2026-11-02T18:00",
       "elle_yapilan": "2026-11-03T17:30"
+    },
+    {
+      "hafta": "2026-11-02",
+      "otomatik_yapilan": "2026-11-03T15:00",
+      "elle_yapilan": "2026-11-05T20:30"
     }
   ]
 }
