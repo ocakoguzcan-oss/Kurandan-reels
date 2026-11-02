@@ -40,6 +40,20 @@
       "persembe"
     ]
   },
-  "kayitlar": [],
-  "takaslar": []
+  "kayitlar": [
+    {
+      "tarih": "2026-11-02T18:00",
+      "tip": "otomatik",
+      "konu": "Umre nasıl yapılır? Erkek · Kadın · Çocuk",
+      "video": "videos/2026-11-02_umre-nasil-yapilir.mp4",
+      "metricool_id": 413688639
+    }
+  ],
+  "takaslar": [
+    {
+      "hafta": "2026-11-02",
+      "otomatik_yapilan": "2026-11-02T18:00",
+      "elle_yapilan": "2026-11-03T17:30"
+    }
+  ]
 }
